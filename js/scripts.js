@@ -274,7 +274,7 @@ Google Maps
 
 $("#map").gmap3({
     marker:{     
-	address:"93 Worth St, New York, NY", 
+	address:"152 Rue de Vern, 35200 Rennes, France", 
 	options:{ icon: "img/marker.png"}},
     map:{
     options:{
@@ -311,7 +311,8 @@ Backstretch - v2.0.4
 $(".home-fullscreen-slider").backstretch([
 	"img/slide-1.jpg",
 	"img/slide-2.jpg",
-	"img/slide-3.jpg"
+    "img/slide-3.jpg",
+	"img/slide-4.jpg"
 ], {
 	fade: 750,
 	duration: 4000

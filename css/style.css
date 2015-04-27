@@ -9,7 +9,7 @@ Table of Contents:
 3) Home
 4) Header
 5) About
-6) Who We Are
+6) Skills
 7) Team
 8) Separator-Video
 9) Fun Facts
@@ -683,8 +683,18 @@ h2 small {
 .about-description {
 	padding-right: 50px;
 }
-/* ==== 6) Who We Are ==== */
-#who-we-are {
+/* ==== 5.1) Hobbies ==== */
+#hobbies {
+	padding-top: 60px;
+	padding-bottom: 80px;
+	background: #eee;
+}
+.section-title-hobbies {
+	text-align: center;
+	margin-bottom:40px;
+}
+/* ==== 6) Skills ==== */
+#skills {
 	background-position: center 0%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -700,13 +710,13 @@ h2 small {
 	z-index: 1;
 	color: #fff;
 }
-.col-we-are {
+.col-skills {
 	margin-top: 40px;
 	margin-bottom: 40px;
 	color: #fff;
 	z-index:3;
 }
-.we-are-info {
+.skills-info {
 	line-height: 1;
 }
 .p-info {
